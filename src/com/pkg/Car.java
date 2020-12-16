@@ -1,5 +1,4 @@
 package com.pkg;
-
 /*
 \.java 
 Create a Custom Class (anything you want - car, phone, holiday, etc.). 
@@ -77,4 +76,10 @@ public class Car {
         System.out.println("Car driving");
     }
 
+    public boolean isHatchback() {
+        if (NumberOfDoors > 4) {
+            return true;
+        }
+        return false;
+    }
 }
